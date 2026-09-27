@@ -3,6 +3,11 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 require("dotenv").config();
 
+const User = require("./models/User");
+const Tool = require("./models/Tool");
+const Booking = require("./models/Booking");
+const Review = require("./models/Review");
+
 const app = express();
 const PORT = 5000;
 
